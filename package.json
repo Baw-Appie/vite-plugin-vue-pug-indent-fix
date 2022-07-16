@@ -1,0 +1,10 @@
+{
+  "name": "vite-plugin-vue-pug-indent-fix",
+  "version": "1.0.0",
+  "description": "Fix Vue3 Pug Indent Issue",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Baw-Appie/vite-plugin-vue-pug-indent-fix.git"
+  }
+}
