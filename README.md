@@ -5,7 +5,7 @@ This plugin is resolve the Unexpected token "indent" error in Vue 3.
 ## Nuxt
 nuxt.config.js  
 ```
-import vitePluginVuePugIndentFix from "vue-plugin-vue-pug-indent-fix"
+import vitePluginVuePugIndentFix from "vite-plugin-vue-pug-indent-fix"
 
 export default defineNuxtConfig({
   vite: {
