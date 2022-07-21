@@ -1,4 +1,4 @@
-export default function vitePluginVuePugIndentFix() {
+module.exports = function vitePluginVuePugIndentFix() {
   return {
     name: 'vite-plugin-vue-pug-indent-fix',
     transform(src, id) {
