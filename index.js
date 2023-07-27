@@ -3,7 +3,7 @@ module.exports = function vitePluginVuePugIndentFix() {
     name: 'vite-plugin-vue-pug-indent-fix',
     transform(src, id) {
       if(/\.(vue)/.test(id)) {
-        if(src.startsWith("<template")) { // Vue3 setup component
+        if(src.includes("<template")) { // Vue3 setup component
           const contentTemp = src.match(/<template(?:.+?)>(.*?)<\/template>/s)
           let content = contentTemp && contentTemp[1]
           const oldContent = content
